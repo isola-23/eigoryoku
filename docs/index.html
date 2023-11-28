@@ -7,17 +7,14 @@
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
     <script src="https://static.spearly.com/js/cms.js" defer></script>
 </head>
 <body>
     <!-- ヘッダー -->
     <header class="header">
         <div class="flex">
-            <div class="header-left">
-                <img src="./image/kari.png" width="60%">
-            </div>
             <div class="header-right">
+                <img src="./image/eigoryoku.png" width="60%">
                 <div class="header-title">英語・直感力</div>
                 <div>マンツーマン英会話</div>
                 <a href="http://www.eigoryoku-appu.com/" class="cta-button" target=”_blank”>法人ページはこちら</a>
@@ -31,6 +28,7 @@
         <div class="section">
             <h2>オンラインでマンツーマン英会話</h2>
             <p>個人向けレッスン始めました！</p>
+            <p>もう少し宣伝キャッチコピー的なものがほしい</p>
             <lesson-slot-list>
                 <!-- レッスン枠空き情報 -->
                 <p>{%= lesson-slot_info %}</p>
@@ -45,12 +43,11 @@
         </div>
         <div class="section">
             <h2>代表講師紹介</h2>
-            <div class="flex">
-                <div class="instructor-image"><img src="./image/kari.png" alt="講師の画像"></div>
-                <div class="instructor-info">
-                    <p><h4>Yuki Fukushima</h4></p>
-                </div>
+            <div class="instructor-image"><img src="./image/kari.png" alt="講師の画像"></div>
+            <div class="instructor-name">
+                <p><h4>Yuki Fukushima</h4></p>
             </div>
+            <div class="instructor-info">
             <p>
                 東京都出身、兵庫県在住。
                 生徒一人一人のニーズを反映させた、英会話・英語文法レッスンの提供を行う。
@@ -85,21 +82,24 @@
                 <h4>the future</h4>
                 オンライン指導の需要増加に対応するため、新たなレッスンプログラムを検討中。
             </p>
+            </div>
         </div>
         <div class="section">
             <h2>レッスン内容紹介</h2>
             レッスンの流れ的な文章があった方がいいかも
+
+            <h3>レッスン紹介動画</h3>
             <p>coming soon...</p>
             <a href="https://forms.gle/xxh43eKTsVz1oE9j6" class="cta-button" target=”_blank”>レッスン体験の申し込みはこちら</a>
         </div>
         <div class="section flex">
             <div class="section-left">
-                <h3>徳田考一郎の英会話エッセイ</h3>
+                <h2>徳田考一郎の英会話エッセイ</h2>
                 <a href="https://news.yahoo.co.jp/expert/creators/tokudakoichiro" class="cta-button" target=”_blank”>エッセイを読みにいく</a>
                 <p>※Yahooのページを開きます</p>
             </div>
             <div class="section-right">
-                <img src="./image/kari.png" width="40%">
+                <img src="./image/toku.png" width="40%">
             </div>
         </div>
     </div>
