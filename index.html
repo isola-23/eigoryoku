@@ -6,10 +6,9 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
     <script src="https://static.spearly.com/js/cms.js" defer></script>
-    <script>window.addEventListener('DOMContentLoaded',()=>{const t=document.querySelectorAll(':not(:defined)');for(const e of t) {e.style.visibility="hidden";}; window.spearly.config.AUTH_KEY="-T1IBpAAM-7v6JXD3UEgJKNvlutslisyvtL8QCykOlQ"},{once:true})</script>
 </head>
 <body>
     <!-- ヘッダー -->
@@ -32,10 +31,10 @@
         <div class="section">
             <h2>オンラインでマンツーマン英会話</h2>
             <p>個人向けレッスン始めました！</p>
-            <div cms-item cms-content-type="sample-ab-testing" cms-content="12285" style="visibility: hidden" >
-                <h3>{%= sample-ab-testing_title %}</h3>              
-                <div>{%= sample-ab-testing_description %}</div>              
-            </div>
+            <lesson-slot-list>
+                <!-- レッスン枠空き情報 -->
+                <p>{%= lesson-slot_info %}</p>
+            </lesson-slot-list>
             <p>
                 <a href="https://forms.gle/xxh43eKTsVz1oE9j6" class="cta-button" target=”_blank”>レッスン申し込みはこちら</a>
             </p>
