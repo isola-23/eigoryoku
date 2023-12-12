@@ -64,14 +64,16 @@ body {
 }
 
 .instructor-image img {
-    max-width: 20%;
     height: 40%;
     border-radius: 50%;
 }
 
+.instructor-image {
+    width:30%;
+}
+
 .instructor-name {
-    padding-left: 1px;
-    size:50px;
+    font-size:28pt;
 }
 
 .instructor-info {
