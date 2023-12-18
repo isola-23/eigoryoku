@@ -43,10 +43,11 @@ body {
 }
 
 .section-left {
-    width: 60%;
+    font-size: 24px;
+    width: 50%;
 }
 .section-right {
-    width: 40%;
+    width: 50%;
 }
 
 
