@@ -120,3 +120,12 @@ h4{
     font-family: 'Amatic SC', cursive;
     color:#334c32;
 }
+
+table {
+    border-collapse: collapse;
+    border: solid 2px green;
+  }
+  th, td {
+    border: dashed 1px green;
+    padding:2px;
+  }
