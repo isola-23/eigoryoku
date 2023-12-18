@@ -41,10 +41,10 @@ body {
 }
 
 .section-left {
-    width: 70%;
+    width: 50%;
 }
 .section-right {
-    width: 30%;
+    width: 50%;
 }
 
 
@@ -102,11 +102,6 @@ body {
     background-color: #334c32;
 }
 
-.flex {
-    display: flex;
-    align-items: center;
-}
-
 .footer {
     background: linear-gradient(to top, #436b47, white);
     padding: 20px;
@@ -128,4 +123,5 @@ table {
   th, td {
     border: dashed 1px green;
     padding:2px;
+    text-align: center;
   }
