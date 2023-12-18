@@ -39,6 +39,7 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
+    font-size: 24px;
 }
 
 .section-left {
@@ -50,7 +51,7 @@ body {
 
 
 .section h2 {
-    font-size: 24px;
+    font-size: 36px;
     color: #436b47;
 }
 
@@ -125,4 +126,6 @@ table {
     border: dashed 1px green;
     padding:2px;
     text-align: center;
+    font-size: 36px;
+    height:50px;
   }
