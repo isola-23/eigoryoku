@@ -164,7 +164,7 @@ padding: 0;
     display: inline-block;
     color: #436b47;/*文字色*/
     border: solid 0px #436b47;/*線色*/
-    padding: 0.5em;/*文字周りの余白*/
+    /* padding: 0.5em;文字周りの余白 */
     margin-left:10px;
     border-radius: 0.5em;/*角丸*/
     min-width: 120px;
