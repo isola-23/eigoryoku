@@ -158,3 +158,15 @@ border-right: 15px solid #e1edec;
 margin: 0;
 padding: 0;
 }
+
+.balloon2 {
+    position: relative;
+    display: inline-block;
+    color: #436b47;/*文字色*/
+    border: solid 3px #436b47;/*線色*/
+    padding: 0.5em;/*文字周りの余白*/
+    margin-left:10px;
+    border-radius: 0.5em;/*角丸*/
+    min-width: 120px;
+    max-width: 100%;
+  }
