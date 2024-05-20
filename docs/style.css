@@ -134,7 +134,7 @@ table {
 .balloon1-left {
 position: relative;
 display: inline-block;
-margin: 1.5em 0 1.5em 15px;
+margin: 0 0 0.5em 15px;
 padding: 7px 10px;
 min-width: 120px;
 max-width: 100%;
