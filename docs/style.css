@@ -169,4 +169,6 @@ padding: 0;
     border-radius: 0.5em;/*角丸*/
     min-width: 120px;
     max-width: 100%;
-  }
+}
+
+.mark{ background: linear-gradient(transparent 60%, #f6ff5f 60%);}
