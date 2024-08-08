@@ -119,18 +119,6 @@ h4{
     color:#334c32;
 }
 
-table {
-    border-collapse: collapse;
-    border: solid 2px green;
-  }
-  th, td {
-    border: dashed 1px green;
-    padding:2px;
-    text-align: center;
-    font-size: 36px;
-    height:50px;
-  }
-
 .balloon1-left {
 position: relative;
 display: inline-block;
@@ -173,3 +161,49 @@ padding: 0;
 }
 
 .mark{ background: linear-gradient(transparent 60%, #f6ff5f 60%);}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #2E7D32;
+    color: white;
+}
+.header-row th {
+    border: none;
+}
+.service-header {
+    background-color: #2E7D32;
+    color: white;
+}
+.price-header {
+    background-color: #A5D6A7;
+    color: black;
+}
+.plan {
+    background-color: #E8F5E9;
+}
+.circle::before {
+    content: '◎';
+    font-weight: bold;
+}
+.cross::before {
+    content: '×';
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+}
+.plan-name {
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+}
